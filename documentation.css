@@ -1,0 +1,51 @@
+html, body {
+    min-width: 200px;
+    color: grey;
+    background-color: whitesmoke;
+    font-family: Arial;
+    line-height: 1.0;
+}
+head {
+display: none;
+}
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: red;
+}
+#main-doc {
+    position: absolute;
+    margin-left: 350px;
+    padding: 21px;
+    margin-bottom: 100px;
+}
+#main-doc header {
+    text-align: left;
+    margin: 0px;
+}
+header {
+    color: red;
+    margin: 10px;
+    text-align: center;
+    font-size: 2.0em;
+}
+section article {
+color: purple;
+margin: 15px;
+font-size: 0.96em;
+}
+#navbar li {
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+@media only screen and (min-width: 1024px) {
+    /* Your desktop styles here */
+  }  
